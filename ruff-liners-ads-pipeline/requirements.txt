@@ -1,0 +1,6 @@
+# dlt with the Postgres destination (Supabase is Postgres)
+dlt[postgres]>=1.27.0
+
+# Verified sources are fetched by `dlt init <source> postgres` (see README).
+# They pull their own deps into requirements; re-run `pip install -r requirements.txt`
+# after each `dlt init` to pick those up.
