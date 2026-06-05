@@ -1,0 +1,8 @@
+# dlt config (non-secret values)
+
+[runtime]
+log_level = "WARNING"
+dlthub_telemetry = false   # opt out of anonymous usage reporting
+
+[sources.shopify_dlt]
+shop_url = ""   # e.g. https://ruff-liners.myshopify.com
