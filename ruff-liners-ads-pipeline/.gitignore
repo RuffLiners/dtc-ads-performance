@@ -4,6 +4,8 @@ secrets.toml
 *.secrets.toml
 # ignore pinned profile name
 .dlt/profile-name
+# ignore dlt internal source-state file
+.dlt/.sources
 # ignore default state dir (pipeline state, working files)
 .dlt/state
 # ignore default data dir (local destination data)
